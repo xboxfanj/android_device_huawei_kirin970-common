@@ -44,6 +44,7 @@ BOARD_HAVE_BLUETOOTH := true
 TARGET_EXFAT_DRIVER := exfat
 
 # Graphics
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriverArm.so
 
 # Lineage hardware
